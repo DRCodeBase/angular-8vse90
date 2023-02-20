@@ -1,0 +1,56 @@
+.status-controls {
+  display: block;
+  border: 1px solid
+}
+
+.status-buttons {
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+
+.status {
+  height: 20px;
+  background-color: #ccc;
+  margin: 0;
+}
+
+div.status[style="width: 10%;"] {
+  background-color: red;
+}
+
+.status[style*="width: 20%;"] {
+  background-color: orange;
+}
+
+.status[style*="width: 30%;"] {
+  background-color: yellow;
+}
+
+.status[style*="width: 40%;"] {
+  background-color: green;
+}
+
+.status[style*="width: 50%;"] {
+  background-color: lightgreen;
+}
+
+.status[style*="width: 60%;"] {
+  background-color: aqua;
+}
+
+.status[style*="width: 70%;"] {
+  background-color: blue;
+}
+
+.status[style*="width: 80%;"] {
+  background-color: purple;
+}
+
+.status[style*="width: 90%;"] {
+  background-color: magenta;
+}
+
+.status[style*="width: 100%;"] {
+  background-color: deeppink;
+}
